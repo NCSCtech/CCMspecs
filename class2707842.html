@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class RadInstrumentInformationType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class RadInstrumentInformationType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2707842"></a>
+<p>A data type that provides information regarding a radiation detection instrument.<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadInstrumentInformationType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_6039170"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadInstrumentManufacturerName</b></div></td></tr></table>
+<p>A Name of the manufacturer of the radiation measurement instrument.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadInstrumentManufacturerName : <a href="class2704386.html#ref4_2704386"><b>NonBlankStringType</b></a>, multiplicity : 1,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadInstrumentManufacturerName</div></li>
+</ul>
+<a name="ref1_6039298"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadInstrumentID</b></div></td></tr></table>
+<p>A unique Identifier for the specific radiation measurement instrument; such as serial number or asset tag number.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadInstrumentID : <a href="class2704386.html#ref4_2704386"><b>NonBlankStringType</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadInstrumentID</div></li>
+</ul>
+<a name="ref1_6039426"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadInstrumentModelName</b></div></td></tr></table>
+<p>A name of the manufacturer's model radiation measurement instrument, number, or other description of the radiation measurement instrument.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadInstrumentModelName : <a href="class2704386.html#ref4_2704386"><b>NonBlankStringType</b></a>, multiplicity : 1,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadInstrumentModelName</div></li>
+</ul>
+<a name="ref1_6039554"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadInstrumentDescriptionText</b></div></td></tr></table>
+<p>A description of the radiation measurement instrument.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadInstrumentDescriptionText : <a href="class2468738.html#ref4_2468738"><b>string</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadInstrumentDescriptionText</div></li>
+</ul>
+<a name="ref1_6039682"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadInstrumentClassCode</b></div></td></tr></table>
+<p>A code for a class of radiation measurement instrument.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadInstrumentClassCode : <a href="class2523778.html#ref4_2523778"><b>RadInstrumentClassCodeType</b></a>, multiplicity : 1,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadInstrumentClassCode</div></li>
+</ul>
+<a name="ref1_6039810"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadInstrumentVersion</b></div></td></tr></table>
+<p>A description of the versions of the various components of a radiation measurement instrument.  At a minimum, there shall be an instance of this element with the component name Software that describes the version of the software and/or firmware that collected the radiation data that is reported by a radiation detection instrument.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadInstrumentVersion : <a href="class2708226.html#ref4_2708226"><b>RadInstrumentVersionType</b></a>, multiplicity : 1,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadInstrumentVersion</div></li>
+</ul>
+<a name="ref1_6039938"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadInstrumentQualityControl</b></div></td></tr></table>
+<p>A radiation measurement instrument's quality control status describing its fitness for service.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadInstrumentQualityControl : <a href="class2707970.html#ref4_2707970"><b>RadInstrumentQualityControlType</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadInstrumentQualityControl</div></li>
+</ul>
+<a name="ref1_6040066"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadInstrumentCharacteristics</b></div></td></tr></table>
+<p>A radiation measurement instrument's characteristics that are not otherwise explicitly addressed in this standard.  Each non-standard characteristic consists of name, value, units, and value data class. Characteristics may also be organized in character<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadInstrumentCharacteristics : <a href="class2697858.html#ref4_2697858"><b>CharacteristicsType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadInstrumentCharacteristics</div></li>
+</ul>
+<a name="ref1_6040194"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadInstrumentInformationAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for cbrn:RadInstrumentInformationType.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadInstrumentInformationAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadInstrumentInformationAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>

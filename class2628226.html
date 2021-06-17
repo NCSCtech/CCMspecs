@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class DiaryDetailType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class DiaryDetailType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2628226"></a>
+<p>A data type that uniquely identifies time segments, giving start and end times of each relative to the absolute beginning of the voice recording<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,DiaryDetailType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_5865602"></a>
+<table><tr><td><div class="element">Attribute <b>biom:SegmentID</b></div></td></tr></table>
+<p>An identifier for a specific time segment.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:SegmentID : <a href="class2468482.html#ref4_2468482"><b>positiveInteger</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,SegmentID</div></li>
+</ul>
+<a name="ref1_5865730"></a>
+<table><tr><td><div class="element">Attribute <b>biom:TimeSegment</b></div></td></tr></table>
+<p>A set of time values defining beginning and end times for a time segment in a video or audio representation<br /></p><p>Declaration :</p><ul><li>Uml : - biom:TimeSegment : <a href="class2692610.html#ref4_2692610"><b>TimeSegmentType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,TimeSegment</div></li>
+</ul>
+<a name="ref1_5865858"></a>
+<table><tr><td><div class="element">Attribute <b>biom:TimeSegmentTrackList</b></div></td></tr></table>
+<p>A listing of recorded tracks contained in a time segment.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:TimeSegmentTrackList : <a href="class2693890.html#ref4_2693890"><b>TrackListType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,TimeSegmentTrackList</div></li>
+</ul>
+<a name="ref1_5865986"></a>
+<table><tr><td><div class="element">Attribute <b>biom:TimeSegmentCommentText</b></div></td></tr></table>
+<p>A comment which allows for comments of any type to be made on a segment, including, but not limited to, word- or phone-level transcriptions, language translations or security classification markings.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:TimeSegmentCommentText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,TimeSegmentCommentText</div></li>
+</ul>
+<a name="ref1_5866114"></a>
+<table><tr><td><div class="element">Attribute <b>biom:OriginalRecordingDate</b></div></td></tr></table>
+<p>A date for the original, contemporaneous capture of the voice data in the segment identified<br /></p><p>Declaration :</p><ul><li>Uml : - biom:OriginalRecordingDate : <a href="class2983810.html#ref4_2983810"><b>DateType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,OriginalRecordingDate</div></li>
+</ul>
+<a name="ref1_5866242"></a>
+<table><tr><td><div class="element">Attribute <b>biom:TimeSourceDescriptionText</b></div></td></tr></table>
+<p>A description of the source of the date and time values used for the contemporaneous capture of the recording.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:TimeSourceDescriptionText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,TimeSourceDescriptionText</div></li>
+</ul>
+<a name="ref1_5866370"></a>
+<table><tr><td><div class="element">Attribute <b>biom:TimeCommentText</b></div></td></tr></table>
+<p>A comment on the timings of the segment recording, including the perceived accuracy of the contemporaneous capture time values.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:TimeCommentText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,TimeCommentText</div></li>
+</ul>
+<a name="ref1_5866498"></a>
+<table><tr><td><div class="element">Attribute <b>biom:DiaryDetailAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for DiaryDetailType.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:DiaryDetailAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,DiaryDetailAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>

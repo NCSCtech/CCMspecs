@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class EFSFeatureColorType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class EFSFeatureColorType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2634882"></a>
+<p>A data type that enables a latent print examiner to annotate individual features with color for display and / or comment. It consists of multiple subfields, each containing four information items.<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,EFSFeatureColorType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_5878402"></a>
+<table><tr><td><div class="element">Attribute <b>biom:FeatureColorFieldReferencedCode</b></div></td></tr></table>
+<p>A data for one or both of the third or fourth information items shall be present in each subfield. The first two information items are mandatory. The first information item, feature - field number / FTF, indicates the field which is annotated with c<br /></p><p>Declaration :</p><ul><li>Uml : - biom:FeatureColorFieldReferencedCode : <a href="class2635138.html#ref4_2635138"><b>EFSFieldNumberCodeType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,FeatureColorFieldReferencedCode</div></li>
+</ul>
+<a name="ref1_5878530"></a>
+<table><tr><td><div class="element">Attribute <b>biom:FeatureColorFieldOccurrenceReferencedValue</b></div></td></tr></table>
+<p>A second information item, feature _ field occurrence / FTO, indicates which repeating subfield of the specified field the label is applied to. Note that this is a 1-based index, not a 0-based index. Occurrences are numbered starting with 1.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:FeatureColorFieldOccurrenceReferencedValue : <a href="class2468482.html#ref4_2468482"><b>positiveInteger</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,FeatureColorFieldOccurrenceReferencedValue</div></li>
+</ul>
+<a name="ref1_5878658"></a>
+<table><tr><td><div class="element">Attribute <b>biom:FeatureColorHexadecimalValue</b></div></td></tr></table>
+<p>A third information item, feature _ color / FTC, is an RGB color value expressed as a hexadecimal number.Some basic colors are red (FF0000), yellow (FFFF00), blue (0000FF), green (008000), black (000000) and white (FFFFFF). Leading zeros are require<br /></p><p>Declaration :</p><ul><li>Uml : - biom:FeatureColorHexadecimalValue : <a href="class2650114.html#ref4_2650114"><b>HexTripleByteType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,FeatureColorHexadecimalValue</div></li>
+</ul>
+<a name="ref1_5878786"></a>
+<table><tr><td><div class="element">Attribute <b>biom:FeatureColorCommentText</b></div></td></tr></table>
+<p>A fourth information item, feature _ comment / COM, allows a free text comment or description to be provided by the examiner about the referenced field and subfield in this instance of a Type-9 record.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:FeatureColorCommentText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,FeatureColorCommentText</div></li>
+</ul>
+<a name="ref1_5878914"></a>
+<table><tr><td><div class="element">Attribute <b>biom:EFSFeatureColorAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for EFSFeatureColorType.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:EFSFeatureColorAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,EFSFeatureColorAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class RumorSurveillanceType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class RumorSurveillanceType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2753794"></a>
+<p>A data type for a rumor surveillance analysis.<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,RumorSurveillanceType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_6149122"></a>
+<table><tr><td><div class="element">Attribute <b>em:EmergencyIncident</b></div></td></tr></table>
+<p>An element for an emergency incident<br /></p><p>Declaration :</p><ul><li>Uml : - em:EmergencyIncident : <a href="class2729730.html#ref4_2729730"><b>EmergencyIncidentType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,EmergencyIncident</div></li>
+</ul>
+<a name="ref1_6149250"></a>
+<table><tr><td><div class="element">Attribute <b>em:RumorKeywordText</b></div></td></tr></table>
+<p>A key search words used to look for rumors.<br /></p><p>Declaration :</p><ul><li>Uml : - em:RumorKeywordText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,RumorKeywordText</div></li>
+</ul>
+<a name="ref1_6149378"></a>
+<table><tr><td><div class="element">Attribute <b>em:RumorOriginalContentText</b></div></td></tr></table>
+<p>An original content of the rumor; may or may not be an accurate representation of the actual event.<br /></p><p>Declaration :</p><ul><li>Uml : - em:RumorOriginalContentText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,RumorOriginalContentText</div></li>
+</ul>
+<a name="ref1_6149506"></a>
+<table><tr><td><div class="element">Attribute <b>em:RumorRecordReleaseDate</b></div></td></tr></table>
+<p>A date for the report of a rumor about an incident or event was released. For example, if a case of Ebola officially happened on 01/01/2018 and the first mention of this case was reported on 01/05/2018, then 01/05/2018 is date the rumor record was released.<br /></p><p>Declaration :</p><ul><li>Uml : - em:RumorRecordReleaseDate : <a href="class2983810.html#ref4_2983810"><b>DateType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,RumorRecordReleaseDate</div></li>
+</ul>
+<a name="ref1_6149634"></a>
+<table><tr><td><div class="element">Attribute <b>em:RumorSourceAccuracyText</b></div></td></tr></table>
+<p>A level of accuracy of information provided by a source. For example, information that is confirmed by other independent sources, is logical in itself and consistent with other information on the subject may be labeled as "Confirmed". Information that is not confirmed and not logical in itself may be labeled as "Improbable". Information that is not confirmed but reasonably logical and agrees with other information on the subject may be labeled as "Possibly true".<br /></p><p>Declaration :</p><ul><li>Uml : - em:RumorSourceAccuracyText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,RumorSourceAccuracyText</div></li>
+</ul>
+<a name="ref1_6149762"></a>
+<table><tr><td><div class="element">Attribute <b>em:RumorSourceReliabilityText</b></div></td></tr></table>
+<p>A level of reliability of the source of information. For example, a source that has no doubt of authenticity, trustworthiness, or competency and has a history of providing completely accurate information may be labeled as "reliable" whereas a source that lacks these attributes and has a history of invalid information may be reported as "unreliable". Sources that are doubted for being authentic, trustworthy, or competent but have provided valid information in the past may be labeled as "fairly reliable".<br /></p><p>Declaration :</p><ul><li>Uml : - em:RumorSourceReliabilityText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,RumorSourceReliabilityText</div></li>
+</ul>
+<a name="ref1_6149890"></a>
+<table><tr><td><div class="element">Attribute <b>em:RumorSourceText</b></div></td></tr></table>
+<p>An information source for a rumor. The information source may include the name of a newspaper or website, a URL, and/or date of publication.<br /></p><p>Declaration :</p><ul><li>Uml : - em:RumorSourceText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,RumorSourceText</div></li>
+</ul>
+<a name="ref1_6150018"></a>
+<table><tr><td><div class="element">Attribute <b>em:RumorSurveillanceAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for type em:RumorSurveillanceType<br /></p><p>Declaration :</p><ul><li>Uml : - em:RumorSurveillanceAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,RumorSurveillanceAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>

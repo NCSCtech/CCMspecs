@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class PersonAlertAssociationType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class PersonAlertAssociationType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2929026"></a>
+<p>A data type for an association between a Person and an Alert Type that identifies the person of interest details.<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/screening/5.0/,PersonAlertAssociationType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_6912514"></a>
+<table><tr><td><div class="element">Attribute <b>em:AlertNotification</b></div></td></tr></table>
+<p>A notification of an incident or threat that may require a coordinated response or action. A type of NOTIFICATION<br /></p><p>Declaration :</p><ul><li>Uml : - em:AlertNotification : <a href="class2716802.html#ref4_2716802"><b>AlertNotificationType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,AlertNotification</div></li>
+</ul>
+<a name="ref1_6912642"></a>
+<table><tr><td><div class="element">Attribute <b>nc:ExpirationDate</b></div></td></tr></table>
+<p>A date after which information is no longer valid.<br /></p><p>Declaration :</p><ul><li>Uml : - nc:ExpirationDate : <a href="class2983810.html#ref4_2983810"><b>DateType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/niem-core/5.0/,ExpirationDate</div></li>
+</ul>
+<a name="ref1_6912770"></a>
+<table><tr><td><div class="element">Attribute <b>nc:Person</b></div></td></tr></table>
+<p>A human being.<br /></p><p>Declaration :</p><ul><li>Uml : - nc:Person : <a href="class3003394.html#ref4_3003394"><b>PersonType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/niem-core/5.0/,Person</div></li>
+</ul>
+<a name="ref1_6912898"></a>
+<table><tr><td><div class="element">Attribute <b>scr:AlertIdentification</b></div></td></tr></table>
+<p>An identification for the PERSON ALERT.<br /></p><p>Declaration :</p><ul><li>Uml : - scr:AlertIdentification : <a href="class2991874.html#ref4_2991874"><b>IdentificationType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/screening/5.0/,AlertIdentification</div></li>
+</ul>
+<a name="ref1_6913026"></a>
+<table><tr><td><div class="element">Attribute <b>scr:AlertEntryDate</b></div></td></tr></table>
+<p>A date on which the alien alert was entered into the system.<br /></p><p>Declaration :</p><ul><li>Uml : - scr:AlertEntryDate : <a href="class2983810.html#ref4_2983810"><b>DateType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/screening/5.0/,AlertEntryDate</div></li>
+</ul>
+<a name="ref1_6913154"></a>
+<table><tr><td><div class="element">Attribute <b>scr:AlertEntryText</b></div></td></tr></table>
+<p>A text of additional information on PERSON ALERT.<br /></p><p>Declaration :</p><ul><li>Uml : - scr:AlertEntryText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/screening/5.0/,AlertEntryText</div></li>
+</ul>
+<a name="ref1_6913282"></a>
+<table><tr><td><div class="element">Attribute <b>scr:PersonAlertStatus</b></div></td></tr></table>
+<p>A status of the classification of person alert status.<br /></p><p>Declaration :</p><ul><li>Uml : - scr:PersonAlertStatus : <a href="class2929410.html#ref4_2929410"><b>PersonAlertStatusType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/screening/5.0/,PersonAlertStatus</div></li>
+</ul>
+<a name="ref1_6913410"></a>
+<table><tr><td><div class="element">Attribute <b>scr:AlertMedicalIndicator</b></div></td></tr></table>
+<p>True if the alert code is for a medical condition; false otherwise.<br /></p><p>Declaration :</p><ul><li>Uml : - scr:AlertMedicalIndicator : <a href="class2465666.html#ref4_2465666"><b>boolean</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/screening/5.0/,AlertMedicalIndicator</div></li>
+</ul>
+<a name="ref1_6913538"></a>
+<table><tr><td><div class="element">Attribute <b>scr:PersonAlertAssociationAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for PersonAlertAssociationType.<br /></p><p>Declaration :</p><ul><li>Uml : - scr:PersonAlertAssociationAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/screening/5.0/,PersonAlertAssociationAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>

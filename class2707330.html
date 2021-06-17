@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class RadAlarmType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class RadAlarmType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2707330"></a>
+<p>A data type for radiation alarm information.<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadAlarmType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_6035330"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadAlarmDateTime</b></div></td></tr></table>
+<p>A date and time of an alarm.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadAlarmDateTime : <a href="class2466050.html#ref4_2466050"><b>dateTime</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadAlarmDateTime</div></li>
+</ul>
+<a name="ref1_6035458"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadAlarmCategoryCode</b></div></td></tr></table>
+<p>A category of radiation alarm (e.g., Neutron).<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadAlarmCategoryCode : <a href="class2523010.html#ref4_2523010"><b>RadAlarmCategoryCodeType</b></a>, multiplicity : 1,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadAlarmCategoryCode</div></li>
+</ul>
+<a name="ref1_6035586"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadAlarmDescriptionText</b></div></td></tr></table>
+<p>A free-form description of the radiation alarm.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadAlarmDescriptionText : <a href="class2468738.html#ref4_2468738"><b>string</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadAlarmDescriptionText</div></li>
+</ul>
+<a name="ref1_6035714"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:AlarmAudibleIndicator</b></div></td></tr></table>
+<p>True if an audible alarm was announced; false otherwise.  An indicator if an audible alarm was annunciated.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:AlarmAudibleIndicator : <a href="class2465666.html#ref4_2465666"><b>boolean</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,AlarmAudibleIndicator</div></li>
+</ul>
+<a name="ref1_6035842"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadAlarmLightColorText</b></div></td></tr></table>
+<p>A free-form text describing the color of the light (if any) annunciating an alarm.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadAlarmLightColorText : <a href="class2468994.html#ref4_2468994"><b>token</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadAlarmLightColorText</div></li>
+</ul>
+<a name="ref1_6035970"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadAlarmEnergyWindowIndexValueList</b></div></td></tr></table>
+<p>A list of one or more indices (If applicable) that indicate the position(s) of the value(s) in the WindowStartEnergyValueList and WindowEndEnergyValueList that triggered an alarm(s).<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadAlarmEnergyWindowIndexValueList : <a href="class3004930.html#ref4_3004930"><b>PositiveIntegerListType</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadAlarmEnergyWindowIndexValueList</div></li>
+</ul>
+<a name="ref1_6036098"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadDetectorInformation</b></div></td></tr></table>
+<p>A set of information regarding a radiation detector.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadDetectorInformation : <a href="class2707458.html#ref4_2707458"><b>RadDetectorInformationType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadDetectorInformation</div></li>
+</ul>
+<a name="ref1_6036226"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadAlarmAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for cbrn:RadAlarmType.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadAlarmAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadAlarmAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>

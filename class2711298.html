@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class SpectrumType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class SpectrumType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2711298"></a>
+<p>A data type that provides spectrum measurement data.<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,SpectrumType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_6056194"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:LiveTimeDuration</b></div></td></tr></table>
+<p>A duration during which a detection assembly is sensitive to the input signal. The value of LiveTimeDuration is always less than or equal to the value of RealTimeDuration, because it does not include the time that the radiation detector was unable to re<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:LiveTimeDuration : <a href="class2466434.html#ref4_2466434"><b>duration</b></a>, multiplicity : 1,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,LiveTimeDuration</div></li>
+</ul>
+<a name="ref1_6056322"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:ChannelDataValueList</b></div></td></tr></table>
+<p>A list of values, one for each of a spectrum's channels. The values represent the number of counts per channel.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:ChannelDataValueList : <a href="class2697602.html#ref4_2697602"><b>ChannelDataType</b></a>, multiplicity : 1,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,ChannelDataValueList</div></li>
+</ul>
+<a name="ref1_6056450"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:EnergyCalibration</b></div></td></tr></table>
+<p>An energy calibration that spectrum measurements can reference as applicable to a particular spectrum.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:EnergyCalibration : <a href="class2700802.html#ref4_2700802"><b>EnergyCalibrationType</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,EnergyCalibration</div></li>
+</ul>
+<a name="ref1_6056578"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:IntrinsicFullEnergyPeakEfficiencyCalibration</b></div></td></tr></table>
+<p>An intrinsic full-energy peak efficiency calibration. The intrinsic full-energy peak efficiency at any value of energy is the ratio of the net counts in a peak at that energy to the number of photons impinging on the radiation detector surface at that energy.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:IntrinsicFullEnergyPeakEfficiencyCalibration : <a href="class2700418.html#ref4_2700418"><b>EfficiencyCalibrationType</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,IntrinsicFullEnergyPeakEfficiencyCalibration</div></li>
+</ul>
+<a name="ref1_6056706"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:FullEnergyPeakEfficiencyCalibration</b></div></td></tr></table>
+<p>A full-energy peak efficiency calibration. The full-energy peak efficiency at any value of energy is the ratio of the net counts in a peak at that energy to the number of photons emitted by a source at that energy.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:FullEnergyPeakEfficiencyCalibration : <a href="class2700418.html#ref4_2700418"><b>EfficiencyCalibrationType</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,FullEnergyPeakEfficiencyCalibration</div></li>
+</ul>
+<a name="ref1_6056834"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:FWHMCalibration</b></div></td></tr></table>
+<p>A FWHM calibration for a gamma radiation detector; i.e., FWHM as a function of energy.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:FWHMCalibration : <a href="class2701826.html#ref4_2701826"><b>FWHMCalibrationType</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,FWHMCalibration</div></li>
+</ul>
+<a name="ref1_6056962"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:IntrinsicSingleEscapePeakEfficiencyCalibration</b></div></td></tr></table>
+<p>An intrinsic single-escape peak efficiency calibration. The intrinsic single-escape peak efficiency at any value of energy is the ratio of the counts in the single-escape peak of that energy to the number of photons impinging on the radiation detector surface at that energy.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:IntrinsicSingleEscapePeakEfficiencyCalibration : <a href="class2700418.html#ref4_2700418"><b>EfficiencyCalibrationType</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,IntrinsicSingleEscapePeakEfficiencyCalibration</div></li>
+</ul>
+<a name="ref1_6057090"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:IntrinsicDoubleEscapePeakEfficiencyCalibration</b></div></td></tr></table>
+<p>An intrinsic double-escape peak efficiency calibration. The intrinsic double-escape peak efficiency at any value of energy is the ratio of the counts in the double-escape peak of that energy to the number of photons impinging on the radiation detector surface at that energy.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:IntrinsicDoubleEscapePeakEfficiencyCalibration : <a href="class2700418.html#ref4_2700418"><b>EfficiencyCalibrationType</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,IntrinsicDoubleEscapePeakEfficiencyCalibration</div></li>
+</ul>
+<a name="ref1_6057218"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadDetectorInformation</b></div></td></tr></table>
+<p>A set of information regarding a radiation detector.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadDetectorInformation : <a href="class2707458.html#ref4_2707458"><b>RadDetectorInformationType</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadDetectorInformation</div></li>
+</ul>
+<a name="ref1_6057346"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:TotalEfficiencyCalibration</b></div></td></tr></table>
+<p>A total efficiency calibration. The total efficiency at any value of energy is the ratio of the total recorded pulses in a spectrum to the number of photons emitted from a source at that energy.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:TotalEfficiencyCalibration : <a href="class2700418.html#ref4_2700418"><b>EfficiencyCalibrationType</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,TotalEfficiencyCalibration</div></li>
+</ul>
+<a name="ref1_6057474"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RadRawSpectrum</b></div></td></tr></table>
+<p>A Spectrum data element(s) used to produce derived data. There shall be no duplicate IDREF values in the list. This is required whenever the element is used within a DerivedData block, and is prohibited otherwise.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RadRawSpectrum : <a href="class2711298.html#ref4_2711298"><b>SpectrumType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RadRawSpectrum</div></li>
+</ul>
+<a name="ref1_6057602"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:SpectrumAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for cbrn:SpectrumType.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:SpectrumAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,SpectrumAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>

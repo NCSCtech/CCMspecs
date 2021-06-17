@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class EquationType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class EquationType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2701186"></a>
+<p>A data type that describes a mathematical equation and its coefficients.  The type of the equation is given by the EquationKindCode element.  The coefficients of the equation are supplied by the EquationCoefficientValueList element; the values of the covariance matrix may be supplied by the EquationCovarianceMatrixValueList.  It is recommended that the data from which the equation coefficients were derived be made available as an ArrayXY type so that the coefficients for a different model could be derived.<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,EquationType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_6015234"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:EquationCoefficientValueList</b></div></td></tr></table>
+<p>A list of values of the coefficients of an equation.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:EquationCoefficientValueList : <a href="class2698114.html#ref4_2698114"><b>CoefficientsType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,EquationCoefficientValueList</div></li>
+</ul>
+<a name="ref1_6015362"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:EquationCovarianceMatrixValueList</b></div></td></tr></table>
+<p>A white-space delimited list of values that provide the lower triangular half of an equation covariance matrix.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:EquationCovarianceMatrixValueList : <a href="class2987138.html#ref4_2987138"><b>DoubleListType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,EquationCovarianceMatrixValueList</div></li>
+</ul>
+<a name="ref1_6015490"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:EquationKindCode</b></div></td></tr></table>
+<p>A kind of an equation.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:EquationKindCode : <a href="class2516354.html#ref4_2516354"><b>EquationKindCodeType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,EquationKindCode</div></li>
+</ul>
+<a name="ref1_6015618"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:EquationDescriptionText</b></div></td></tr></table>
+<p>A free-form description of the equation type; it is intended for documentation purposes only.  If the equation kind is Other, then this description shall be specified to explain the kind of equation. Polynomial equations shall report the linear term first as Term0 followed by the other terms.  An example would be: Energy = Term0 + Term1*Ch + Term2*Ch**2<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:EquationDescriptionText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,EquationDescriptionText</div></li>
+</ul>
+<a name="ref1_6015746"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:LowerLimitValue</b></div></td></tr></table>
+<p>A lowest value of X for which an equation is valid.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:LowerLimitValue : <a href="class2700290.html#ref4_2700290"><b>DoubleType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,LowerLimitValue</div></li>
+</ul>
+<a name="ref1_6015874"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:UpperLimitValue</b></div></td></tr></table>
+<p>A highest value of X for which an equation is valid.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:UpperLimitValue : <a href="class2700290.html#ref4_2700290"><b>DoubleType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,UpperLimitValue</div></li>
+</ul>
+<a name="ref1_6016002"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:EquationAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for cbrn:EquationType.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:EquationAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,EquationAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>
