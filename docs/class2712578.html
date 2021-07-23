@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class TraversalType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class TraversalType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2712578"></a>
+<p>A data type for the end-to-end workflow of a conveyance through an encounter process. One or more detection events occur during a traversal.<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,TraversalType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_6059522"></a>
+<table><tr><td><div class="element">Attribute <b>nc:Conveyance</b></div></td></tr></table>
+<p>A means of transport.<br /></p><p>Declaration :</p><ul><li>Uml : - nc:Conveyance : <a href="class2983170.html#ref4_2983170"><b>ConveyanceType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/niem-core/5.0/,Conveyance</div></li>
+</ul>
+<a name="ref1_6059650"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:TraversalID</b></div></td></tr></table>
+<p>A unique identifier of a traversal.  There is no required format for the ID value.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:TraversalID : <a href="class2468738.html#ref4_2468738"><b>string</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,TraversalID</div></li>
+</ul>
+<a name="ref1_6059778"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:TraversalBeginDateTime</b></div></td></tr></table>
+<p>A DateTime of the start of a traversal.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:TraversalBeginDateTime : <a href="class2466050.html#ref4_2466050"><b>dateTime</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,TraversalBeginDateTime</div></li>
+</ul>
+<a name="ref1_6059906"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:TraversalEndDateTime</b></div></td></tr></table>
+<p>A DateTime of the end of a traversal.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:TraversalEndDateTime : <a href="class2466050.html#ref4_2466050"><b>dateTime</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,TraversalEndDateTime</div></li>
+</ul>
+<a name="ref1_6060034"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:TraversalOperatingModeAbstract</b></div></td></tr></table>
+<p>A data concept for a Traversal operating mode.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:TraversalOperatingModeAbstract : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,TraversalOperatingModeAbstract</div></li>
+</ul>
+<a name="ref1_6060162"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:DetectionEventData</b></div></td></tr></table>
+<p>A set of all data collected during a Detection Event that involved the inspection of an Item(s) for the purpose of detecting the presence of illicit goods and materials. This includes data collected by the device(s) used to perform the detection as well.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:DetectionEventData : <a href="class2699394.html#ref4_2699394"><b>DetectionEventDataType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,DetectionEventData</div></li>
+</ul>
+<a name="ref1_6060290"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:ConveyanceBoundForCode</b></div></td></tr></table>
+<p>A description of where a conveyance is bound for when it completes a traversal.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:ConveyanceBoundForCode : <a href="class2514562.html#ref4_2514562"><b>ConveyanceBoundForCodeType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,ConveyanceBoundForCode</div></li>
+</ul>
+<a name="ref1_6060418"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:TraversalAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for cbrn:TraversalType.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:TraversalAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,TraversalAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>

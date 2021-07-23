@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class StateVectorType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class StateVectorType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2711554"></a>
+<p>A data type that provides location, orientation,and speed state data for an object, such as a radiation detection instrument/detector or an item being measured by an instrument/detector.<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,StateVectorType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_6057730"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:StateVectorLocationChoiceAbstract</b></div></td></tr></table>
+<p>A data concept for various location representation types<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:StateVectorLocationChoiceAbstract : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,StateVectorLocationChoiceAbstract</div></li>
+</ul>
+<a name="ref1_6057858"></a>
+<table><tr><td><div class="element">Attribute <b>nc:Orientation</b></div></td></tr></table>
+<p>A set of angles of rotation about the principle axes (normal, lateral, longitudinal) of a thing, relative to true north and the horizontal plane, measured in degrees.<br /></p><p>Declaration :</p><ul><li>Uml : - nc:Orientation : <a href="class3000194.html#ref4_3000194"><b>OrientationType</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/niem-core/5.0/,Orientation</div></li>
+</ul>
+<a name="ref1_6057986"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:SpeedValue</b></div></td></tr></table>
+<p>An object's speed (e.g., radiation measurement instrument, radiation detector, or measured item). If an orientation bearing is defined by the presence of the Orientation element, then the SpeedValue is considered to be along this bearing.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:SpeedValue : <a href="class2711426.html#ref4_2711426"><b>SpeedType</b></a>, multiplicity : 0,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,SpeedValue</div></li>
+</ul>
+<a name="ref1_6058114"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:StateVectorAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for cbrn:StateVectorType.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:StateVectorAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,StateVectorAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>

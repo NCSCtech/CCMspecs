@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class AlertNotificationType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class AlertNotificationType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2716802"></a>
+<p>A data type for an alert message<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,AlertNotificationType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_6069762"></a>
+<table><tr><td><div class="element">Attribute <b>em:AlertEffectiveDateTime</b></div></td></tr></table>
+<p>A time of the information of the alert message<br /></p><p>Declaration :</p><ul><li>Uml : - em:AlertEffectiveDateTime : <a href="class2466050.html#ref4_2466050"><b>dateTime</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,AlertEffectiveDateTime</div></li>
+</ul>
+<a name="ref1_6069890"></a>
+<table><tr><td><div class="element">Attribute <b>em:AlertExpirationDateTime</b></div></td></tr></table>
+<p>A time of the information of the alert message expiring. If this item is not provided, each recipient is free to set its own policy as to when the message is no longer in effect<br /></p><p>Declaration :</p><ul><li>Uml : - em:AlertExpirationDateTime : <a href="class2466050.html#ref4_2466050"><b>dateTime</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,AlertExpirationDateTime</div></li>
+</ul>
+<a name="ref1_6070018"></a>
+<table><tr><td><div class="element">Attribute <b>em:AlertHeadlineText</b></div></td></tr></table>
+<p>A text headline of the alert message. A brief human-readable headline. Note that some displays (for example, short messaging service devices) may only present this headline; it SHOULD be made as direct and actionable as possible while remaining short. 1<br /></p><p>Declaration :</p><ul><li>Uml : - em:AlertHeadlineText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,AlertHeadlineText</div></li>
+</ul>
+<a name="ref1_6070146"></a>
+<table><tr><td><div class="element">Attribute <b>em:AlertInstructionsDescriptionText</b></div></td></tr></table>
+<p>A description of the recommended action to be taken by recipients of the alert message. An extended human readable instruction to targeted recipients. If different instructions are intended for different recipients, they should be represented by use of multiple info blocks<br /></p><p>Declaration :</p><ul><li>Uml : - em:AlertInstructionsDescriptionText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,AlertInstructionsDescriptionText</div></li>
+</ul>
+<a name="ref1_6070274"></a>
+<table><tr><td><div class="element">Attribute <b>em:AlertHandlingAbstract</b></div></td></tr></table>
+<p>A data concept for the code denoting the special handling of the alert message<br /></p><p>Declaration :</p><ul><li>Uml : - em:AlertHandlingAbstract : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,AlertHandlingAbstract</div></li>
+</ul>
+<a name="ref1_6070402"></a>
+<table><tr><td><div class="element">Attribute <b>em:AlertReasonText</b></div></td></tr></table>
+<p>A text describing the reason the alert message was distributed<br /></p><p>Declaration :</p><ul><li>Uml : - em:AlertReasonText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,AlertReasonText</div></li>
+</ul>
+<a name="ref1_6070530"></a>
+<table><tr><td><div class="element">Attribute <b>em:AlertCategoryCode</b></div></td></tr></table>
+<p>A code value denoting the type of alert message<br /></p><p>Declaration :</p><ul><li>Uml : - em:AlertCategoryCode : <a href="class2715266.html#ref4_2715266"><b>AlertCategoryCodeType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,AlertCategoryCode</div></li>
+</ul>
+<a name="ref1_6070658"></a>
+<table><tr><td><div class="element">Attribute <b>em:AlertEventDetails</b></div></td></tr></table>
+<p>A container for all component parts of the info sub-element of the alert message. Multiple occurrences are permitted within a single alert<br /></p><p>Declaration :</p><ul><li>Uml : - em:AlertEventDetails : <a href="class2716418.html#ref4_2716418"><b>AlertEventDetailsType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,AlertEventDetails</div></li>
+</ul>
+<a name="ref1_6070786"></a>
+<table><tr><td><div class="element">Attribute <b>em:AlertAffectedLocation</b></div></td></tr></table>
+<p>A location affected by an alert<br /></p><p>Declaration :</p><ul><li>Uml : - em:AlertAffectedLocation : <a href="class2715010.html#ref4_2715010"><b>AlertAffectedLocationType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,AlertAffectedLocation</div></li>
+</ul>
+<a name="ref1_6070914"></a>
+<table><tr><td><div class="element">Attribute <b>em:AlertSupplementaryDigitalResource</b></div></td></tr></table>
+<p>A digital representation of an object<br /></p><p>Declaration :</p><ul><li>Uml : - em:AlertSupplementaryDigitalResource : <a href="class2716930.html#ref4_2716930"><b>AlertSupplementaryDigitalResourceType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,AlertSupplementaryDigitalResource</div></li>
+</ul>
+<a name="ref1_6071042"></a>
+<table><tr><td><div class="element">Attribute <b>em:AlertNotificationAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for AlertNotificationType.<br /></p><p>Declaration :</p><ul><li>Uml : - em:AlertNotificationAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/emergencyManagement/5.0/,AlertNotificationAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>

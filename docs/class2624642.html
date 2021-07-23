@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class CodecDetailsType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class CodecDetailsType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2624642"></a>
+<p>A data type for a container of descriptive information about the encoding of a digital media data file.<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,CodecDetailsType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_5854978"></a>
+<table><tr><td><div class="element">Attribute <b>biom:CodecCategoryCode</b></div></td></tr></table>
+<p>A CODEC used to encode a digital data stream or signal.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:CodecCategoryCode : <a href="class2624514.html#ref4_2624514"><b>CodecCategoryCodeType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,CodecCategoryCode</div></li>
+</ul>
+<a name="ref1_5855106"></a>
+<table><tr><td><div class="element">Attribute <b>biom:SamplingRate</b></div></td></tr></table>
+<p>A ratio of digital samples per second of analog data upon conversion to an acoustic signal<br /></p><p>Declaration :</p><ul><li>Uml : - biom:SamplingRate : <a href="class2468098.html#ref4_2468098"><b>nonNegativeInteger</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,SamplingRate</div></li>
+</ul>
+<a name="ref1_5855234"></a>
+<table><tr><td><div class="element">Attribute <b>biom:RecordingBitDepthValue</b></div></td></tr></table>
+<p>A total number of bits that are used to represent a single sample of digital media.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:RecordingBitDepthValue : <a href="class2656002.html#ref4_2656002"><b>Integer0To1024Type</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,RecordingBitDepthValue</div></li>
+</ul>
+<a name="ref1_5855362"></a>
+<table><tr><td><div class="element">Attribute <b>biom:RecordingEndianCode</b></div></td></tr></table>
+<p>An ordering of individually addressable sub-components (bytes) within the representation of a recording.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:RecordingEndianCode : <a href="class2636290.html#ref4_2636290"><b>EndianCodeType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,RecordingEndianCode</div></li>
+</ul>
+<a name="ref1_5855490"></a>
+<table><tr><td><div class="element">Attribute <b>biom:NumericFormatText</b></div></td></tr></table>
+<p>A kind of numeric format that contains Integer and floating point representations<br /></p><p>Declaration :</p><ul><li>Uml : - biom:NumericFormatText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,NumericFormatText</div></li>
+</ul>
+<a name="ref1_5855618"></a>
+<table><tr><td><div class="element">Attribute <b>biom:RecordingChannelsQuantity</b></div></td></tr></table>
+<p>A count of the channels of data represented in a digital media data file.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:RecordingChannelsQuantity : <a href="class2658434.html#ref4_2658434"><b>Integer1To9999Type</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,RecordingChannelsQuantity</div></li>
+</ul>
+<a name="ref1_5855746"></a>
+<table><tr><td><div class="element">Attribute <b>biom:CodecExternalReferenceCodeText</b></div></td></tr></table>
+<p>A kind of code that contains the 'reference code' from the table of codecs available at http://www.nist.gov/itl/iad/ig/ansi_standard.cfm<br /></p><p>Declaration :</p><ul><li>Uml : - biom:CodecExternalReferenceCodeText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,CodecExternalReferenceCodeText</div></li>
+</ul>
+<a name="ref1_5855874"></a>
+<table><tr><td><div class="element">Attribute <b>biom:CodecCommentText</b></div></td></tr></table>
+<p>A comment to contain additional information about the codec or additional instructions for reconstruction of the original digital media data file.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:CodecCommentText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,CodecCommentText</div></li>
+</ul>
+<a name="ref1_5856002"></a>
+<table><tr><td><div class="element">Attribute <b>biom:CodecDetailsAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for CodecDetailsType.<br /></p><p>Declaration :</p><ul><li>Uml : - biom:CodecDetailsAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/biometrics/5.0/,CodecDetailsAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>

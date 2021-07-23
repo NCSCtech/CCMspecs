@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class CustomerInfoType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class CustomerInfoType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2619266"></a>
+<p>A data type containing customer information including identification and name.<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/agriculture/5.0/,CustomerInfoType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_5837570"></a>
+<table><tr><td><div class="element">Attribute <b>ag:FileCustomerID</b></div></td></tr></table>
+<p>An internal identifier uniquely identifying a customer within a specific file. Each unique customer within a given file will have a unique File Customer Identifier. File Customer Identifier values are not unique across files.<br /></p><p>Declaration :</p><ul><li>Uml : - ag:FileCustomerID : <a href="class2502146.html#ref4_2502146"><b>FileCustomerIDType</b></a>, multiplicity : 1,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/agriculture/5.0/,FileCustomerID</div></li>
+</ul>
+<a name="ref1_5837698"></a>
+<table><tr><td><div class="element">Attribute <b>ag:CustomerInterAgencyIdentificationID</b></div></td></tr></table>
+<p>A system generated, unique internal identifier used between agencies to identify a USDA customer (individual or business).<br /></p><p>Declaration :</p><ul><li>Uml : - ag:CustomerInterAgencyIdentificationID : <a href="class2468738.html#ref4_2468738"><b>string</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/agriculture/5.0/,CustomerInterAgencyIdentificationID</div></li>
+</ul>
+<a name="ref1_5837826"></a>
+<table><tr><td><div class="element">Attribute <b>ag:TaxIdentificationID</b></div></td></tr></table>
+<p>A tax identifier assigned to a specific individual, business or other entity and is used to authenticate the individual/entity for matters of taxation and other federal government business.<br /></p><p>Declaration :</p><ul><li>Uml : - ag:TaxIdentificationID : <a href="class2507522.html#ref4_2507522"><b>TaxIdentificationIDType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/agriculture/5.0/,TaxIdentificationID</div></li>
+</ul>
+<a name="ref1_5837954"></a>
+<table><tr><td><div class="element">Attribute <b>ag:TaxIdentificationCategoryCode</b></div></td></tr></table>
+<p>A type code identifying the type of identification assigned to a specific individual, business or other entity and is used to authenticate the individual/entity for matters of taxation and other government business.<br /></p><p>Declaration :</p><ul><li>Uml : - ag:TaxIdentificationCategoryCode : <a href="class2507266.html#ref4_2507266"><b>TaxIdentificationCategoryCodeType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/agriculture/5.0/,TaxIdentificationCategoryCode</div></li>
+</ul>
+<a name="ref1_5838082"></a>
+<table><tr><td><div class="element">Attribute <b>nc:OrganizationName</b></div></td></tr></table>
+<p>A name of an organization.<br /></p><p>Declaration :</p><ul><li>Uml : - nc:OrganizationName : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/niem-core/5.0/,OrganizationName</div></li>
+</ul>
+<a name="ref1_5838210"></a>
+<table><tr><td><div class="element">Attribute <b>nc:PersonGivenName</b></div></td></tr></table>
+<p>A first name of a person.<br /></p><p>Declaration :</p><ul><li>Uml : - nc:PersonGivenName : <a href="class3002754.html#ref4_3002754"><b>PersonNameTextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/niem-core/5.0/,PersonGivenName</div></li>
+</ul>
+<a name="ref1_5838338"></a>
+<table><tr><td><div class="element">Attribute <b>nc:PersonSurName</b></div></td></tr></table>
+<p>A last name or family name of a person.<br /></p><p>Declaration :</p><ul><li>Uml : - nc:PersonSurName : <a href="class3002754.html#ref4_3002754"><b>PersonNameTextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/niem-core/5.0/,PersonSurName</div></li>
+</ul>
+<a name="ref1_5838466"></a>
+<table><tr><td><div class="element">Attribute <b>nc:PersonMiddleName</b></div></td></tr></table>
+<p>A middle name of a person.<br /></p><p>Declaration :</p><ul><li>Uml : - nc:PersonMiddleName : <a href="class3002754.html#ref4_3002754"><b>PersonNameTextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/niem-core/5.0/,PersonMiddleName</div></li>
+</ul>
+<a name="ref1_5838594"></a>
+<table><tr><td><div class="element">Attribute <b>nc:PersonNameSuffixText</b></div></td></tr></table>
+<p>A term appended after the family name that qualifies the name.<br /></p><p>Declaration :</p><ul><li>Uml : - nc:PersonNameSuffixText : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/niem-core/5.0/,PersonNameSuffixText</div></li>
+</ul>
+<a name="ref1_5838722"></a>
+<table><tr><td><div class="element">Attribute <b>ag:CustomerInfoAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for CustomerInfoType.<br /></p><p>Declaration :</p><ul><li>Uml : - ag:CustomerInfoAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/agriculture/5.0/,CustomerInfoAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>

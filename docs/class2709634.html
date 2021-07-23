@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class RequestDataType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class RequestDataType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2709634"></a>
+<p>A data type to provide metadata about a request.<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RequestDataType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_6048770"></a>
+<table><tr><td><div class="element">Attribute <b>nc:SystemUserNameAbstract</b></div></td></tr></table>
+<p>A data concept for a user name associated with a system audit event.<br /></p><p>Declaration :</p><ul><li>Uml : - nc:SystemUserNameAbstract : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/niem-core/5.0/,SystemUserNameAbstract</div></li>
+</ul>
+<a name="ref1_6048898"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RequestScopeCode</b></div></td></tr></table>
+<p>A description of the requests scope.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RequestScopeCode : <a href="class2525058.html#ref4_2525058"><b>RequestScopeCodeType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RequestScopeCode</div></li>
+</ul>
+<a name="ref1_6049026"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RequestDateTime</b></div></td></tr></table>
+<p>A requests datetime .<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RequestDateTime : <a href="class2466050.html#ref4_2466050"><b>dateTime</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RequestDateTime</div></li>
+</ul>
+<a name="ref1_6049154"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RequestID</b></div></td></tr></table>
+<p>A unique identifier of a request.  There is no required format for the Identifier value.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RequestID : <a href="class2468738.html#ref4_2468738"><b>string</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RequestID</div></li>
+</ul>
+<a name="ref1_6049282"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RequestAgency</b></div></td></tr></table>
+<p>An organization that initiated a request.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RequestAgency : <a href="class2709506.html#ref4_2709506"><b>RequestAgencyType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RequestAgency</div></li>
+</ul>
+<a name="ref1_6049410"></a>
+<table><tr><td><div class="element">Attribute <b>nc:ActivityName</b></div></td></tr></table>
+<p>A name of an activity.<br /></p><p>Declaration :</p><ul><li>Uml : - nc:ActivityName : <a href="class3010562.html#ref4_3010562"><b>TextType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/niem-core/5.0/,ActivityName</div></li>
+</ul>
+<a name="ref1_6049538"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RequestUpdateIndicator</b></div></td></tr></table>
+<p>True if the request is an update to the request identified by RequestID; false if the request is new.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RequestUpdateIndicator : <a href="class2465666.html#ref4_2465666"><b>boolean</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RequestUpdateIndicator</div></li>
+</ul>
+<a name="ref1_6049666"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RequestCancelIndicator</b></div></td></tr></table>
+<p>True if the request is a cancellation of the request identified by RequestID; false if omitted, the request is not a cancellation.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RequestCancelIndicator : <a href="class2465666.html#ref4_2465666"><b>boolean</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RequestCancelIndicator</div></li>
+</ul>
+<a name="ref1_6049794"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RequestDataAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for cbrn:RequestDataType.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RequestDataAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RequestDataAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>

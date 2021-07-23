@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class DerivedDataType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class DerivedDataType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2699266"></a>
+<p>A data type for measurement data artificially created by an analysis algorithm.<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,DerivedDataType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_6006914"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:MeasurementClassCode</b></div></td></tr></table>
+<p>An indicator A code indicating whether the data are a measurement of an item (Foreground), an environmental background (Background), a calibration source (Calibration), the intrinsic activity of the radiation measurement instrument (IntrinsicActivity), or not specified (NotSpecified).<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:MeasurementClassCode : <a href="class2520194.html#ref4_2520194"><b>MeasurementClassCodeType</b></a>, multiplicity : 1,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,MeasurementClassCode</div></li>
+</ul>
+<a name="ref1_6007042"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:StartDateTime</b></div></td></tr></table>
+<p>A time corresponding to the start of the collection of the data contained in a particular measurement.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:StartDateTime : <a href="class2466050.html#ref4_2466050"><b>dateTime</b></a>, multiplicity : 1,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,StartDateTime</div></li>
+</ul>
+<a name="ref1_6007170"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:RealTimeDuration</b></div></td></tr></table>
+<p>A total clock time (in ISO 8601 format) expended by an instrument in collecting a measurement; the duration shall be greater than zero.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:RealTimeDuration : <a href="class2466434.html#ref4_2466434"><b>duration</b></a>, multiplicity : 1,1</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,RealTimeDuration</div></li>
+</ul>
+<a name="ref1_6007298"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:Spectrum</b></div></td></tr></table>
+<p>A single spectrum measurement with references to other pertinent information about the measurement.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:Spectrum : <a href="class2711298.html#ref4_2711298"><b>SpectrumType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,Spectrum</div></li>
+</ul>
+<a name="ref1_6007426"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:GrossCounts</b></div></td></tr></table>
+<p>A gross count from a radiation detector.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:GrossCounts : <a href="class2702466.html#ref4_2702466"><b>GrossCountsType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,GrossCounts</div></li>
+</ul>
+<a name="ref1_6007554"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:DoseRate</b></div></td></tr></table>
+<p>A measured ambient dose equivalent rate, provided as a value and/or a qualitative description.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:DoseRate : <a href="class2700034.html#ref4_2700034"><b>DoseRateType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,DoseRate</div></li>
+</ul>
+<a name="ref1_6007682"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:TotalDoseNumeric</b></div></td></tr></table>
+<p>A value for the accumulated ambient dose equivalent since the last radiation detection instrument reset, in microsieverts (Sv).<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:TotalDoseNumeric : <a href="class2711938.html#ref4_2711938"><b>TotalDoseType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,TotalDoseNumeric</div></li>
+</ul>
+<a name="ref1_6007810"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:ExposureRate</b></div></td></tr></table>
+<p>A radiation exposure rate, provided as the measured value, and/or a qualitative description of an exposure rate level.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:ExposureRate : <a href="class2701570.html#ref4_2701570"><b>ExposureRateType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,ExposureRate</div></li>
+</ul>
+<a name="ref1_6007938"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:TotalExposureNumeric</b></div></td></tr></table>
+<p>A set of data for the accumulated exposure since the last instrument reset, in milliroentgen (mR).<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:TotalExposureNumeric : <a href="class2712450.html#ref4_2712450"><b>TotalExposureType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,TotalExposureNumeric</div></li>
+</ul>
+<a name="ref1_6008066"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:DerivedDataAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for cbrn:DerivedDataType.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:DerivedDataAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,DerivedDataAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>

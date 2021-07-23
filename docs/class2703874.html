@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class MessageStatusType</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class MessageStatusType</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref4_2703874"></a>
+<p>A data type to provide success or error feedback on a message that has been received.<br /></p>
+<p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,MessageStatusType</div></li>
+</ul>
+<div class="sub">
+<a name="ref1_6028418"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:CredentialsAuthenticatedCode</b></div></td></tr></table>
+<p>A verification of the authenticating credentials.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:CredentialsAuthenticatedCode : <a href="class2515842.html#ref4_2515842"><b>CredentialsAuthenticatedCodeType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,CredentialsAuthenticatedCode</div></li>
+</ul>
+<a name="ref1_6028546"></a>
+<table><tr><td><div class="element">Attribute <b>nc:MessageID</b></div></td></tr></table>
+<p>A message identifier associated with an email or message content.<br /></p><p>Declaration :</p><ul><li>Uml : - nc:MessageID : <a href="class2468738.html#ref4_2468738"><b>string</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/niem-core/5.0/,MessageID</div></li>
+</ul>
+<a name="ref1_6028674"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:MessageKindCode</b></div></td></tr></table>
+<p>A code for a kind of information content contained in a message.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:MessageKindCode : <a href="class2520962.html#ref4_2520962"><b>MessageKindCodeType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,MessageKindCode</div></li>
+</ul>
+<a name="ref1_6028802"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:MessageStatusCode</b></div></td></tr></table>
+<p>A code for the receiving status of a message.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:MessageStatusCode : <a href="class2521474.html#ref4_2521474"><b>MessageStatusCodeType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,MessageStatusCode</div></li>
+</ul>
+<a name="ref1_6028930"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:MeasuredItemID</b></div></td></tr></table>
+<p>An Identifier of a measured item.  There is no required format for the ID value.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:MeasuredItemID : <a href="class2468738.html#ref4_2468738"><b>string</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,MeasuredItemID</div></li>
+</ul>
+<a name="ref1_6029058"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:MeasuredItemKindCode</b></div></td></tr></table>
+<p>A kind or general category of item that is being inspected.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:MeasuredItemKindCode : <a href="class2519938.html#ref4_2519938"><b>MeasuredItemKindCodeType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,MeasuredItemKindCode</div></li>
+</ul>
+<a name="ref1_6029186"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:MessageContentError</b></div></td></tr></table>
+<p>A set of information about the point in the xml payload content of a message where an error occurred in processing the message.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:MessageContentError : <a href="class2703490.html#ref4_2703490"><b>MessageContentErrorType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,MessageContentError</div></li>
+</ul>
+<a name="ref1_6029314"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:MessageHandlingError</b></div></td></tr></table>
+<p>A description of a message error encountered by an infrastructure component in the process of message handling and transmission.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:MessageHandlingError : <a href="class2703618.html#ref4_2703618"><b>MessageErrorType</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,MessageHandlingError</div></li>
+</ul>
+<a name="ref1_6029442"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:TraversalID</b></div></td></tr></table>
+<p>A unique identifier of a traversal.  There is no required format for the ID value.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:TraversalID : <a href="class2468738.html#ref4_2468738"><b>string</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,TraversalID</div></li>
+</ul>
+<a name="ref1_6029570"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:ResendRequestIndicator</b></div></td></tr></table>
+<p>True if the message should be resent; false otherwise.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:ResendRequestIndicator : <a href="class2465666.html#ref4_2465666"><b>boolean</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,ResendRequestIndicator</div></li>
+</ul>
+<a name="ref1_6029698"></a>
+<table><tr><td><div class="element">Attribute <b>cbrn:MessageStatusAugmentationPoint</b></div></td></tr></table>
+<p>An augmentation point for cbrn:MessageStatusType.<br /></p><p>Declaration :</p><ul><li>Uml : - cbrn:MessageStatusAugmentationPoint : <a href="class2457602.html#ref4_2457602"><b>abstract</b></a>, multiplicity : 0,unbounded</li></ul><p>Properties:</p><ul>
+<li>URI:<br /><div class="sub">http://release.niem.gov/niem/domains/cbrn/5.0/,MessageStatusAugmentationPoint</div></li>
+</ul>
+</div>
+</body>
+</html>
